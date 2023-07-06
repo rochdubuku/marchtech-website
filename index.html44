@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  
+</style>
+
+</head>
+<body>
+  <center>
+  <h1>MARC</h1>
+<h2>Registration Form </h3>
+<table align="center" cellpadding = "10">
+<!--------------------- First Name ------------------------------------------>
+<tr>
+<td>First Name</td>
+<td><input type="text" name="FirstName" maxlength="50" placeholder="Ghanendra" />
+(Max 50 Characters Allowed)
+</td>
+</tr>
+<!------------------------ Last Name --------------------------------------->
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="LastName" maxlength="50" placeholder="Yadav"/>
+(Max 50 Characters Allowed)
+</td>
+</tr>
+<!-------------------------- Email ID ------------------------------------->
+<tr>
+<td>Email ID</td>
+<td><input type="email" name="EmailID" maxlength="100" placeholder="yghanendra@gmail.com"/></td>
+</tr>
+<!-------------------------- Mobile Number ------------------------------------->
+<tr>
+<td>Mobile Number</td>
+<td>
+<input type="text" name="MobileNumber" maxlength="10" placeholder="7842xxxxxx"/>
+(10 Digits Allowed)
+</td>
+</tr>
+<!---------------------- Gender ------------------------------------->
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="Gender" value="Male" />
+Male
+<input type="radio" name="Gender" value="Female" />
+Female
+</td>
+</tr>
+<!--------------------------Date Of Birth----------------------------------->
+<tr>
+<td>Date of Birth(DOB)</td>
+<td>
+<select name="BirthDay" id="Birthday_Day">
+<option value="-1">Day:</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+<select name="BirthdayMonth" id="Birthday_Month">
+<option value="-1">Month:</option>
+<option value="January">Jan(1)</option>
+<option value="February">Feb(2)</option>
+<option value="March">Mar(3)</option>
+<option value="April">Apr(4)</option>
+<option value="May">May(5)</option>
+<option value="June">Jun(6)</option>
+<option value="July">Jul(7)</option>
+<option value="August">Aug(8)</option>
+<option value="September">Sep(9)</option>
+<option value="October">Oct(10)</option>
+<option value="November">Nov(11)</option>
+<option value="December">Dec(12)</option>
+</select>
+<select name="BirthdayYear" id="Birthday_Year">
+<option value="-1">Year:</option>
+  <option value="2019">2024</option>
+  <option value="2019">2023</option>
+  <option value="2019">2022</option>
+  <option value="2019">2021</option>
+  <option value="2019">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+<option value="1989">1989</option>
+<option value="1988">1988</option>
+<option value="1987">1987</option>
+<option value="1986">1986</option>
+<option value="1985">1985</option>
+<option value="1984">1984</option>
+<option value="1983">1983</option>
+<option value="1982">1982</option>
+<option value="1981">1981</option>
+<option value="1980">1980</option>
+</select>
+</td>
+</tr>
+
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+
+<style>
+  body{
+  background-image:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIWFRIREhUVEhIRERERERIREhISERERGBgZGRgUGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHBISHjErJCE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNDQ0NDQ0NDQ0NDQ0NjQ0NDQ0NP/AABEIALYBFAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQEGB//EAEQQAAIBAgMGBAEJBAcJAQAAAAECAAMRBBIhBRMxQVFhInGBkaEGFBUyQlKxwdEjcpLwJDNigpPC4VNUY4SUo7LT8Rb/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAJxEAAgICAgMAAgEFAQAAAAAAAAECEQMSE0EhMVEEYRQiIzKRoQX/2gAMAwEAAhEDEQA/APC2lrQdGuvA8IwqA8Dee9Cafs8qeJryvRUCWAlwksEm6MXFlQJ0CXCS2SaKjNxZQCXAlgkIqShatlAsKqQipCKkLLjD6BVDLbsRgJLqkNiuNC4pzu56RkJLBJSkTLGhYUZzdRzJOhI9iOKImKUm6ju7k3cWwcSEt1Juo5u50JHuLhQoKM6KUaKSBYbC4hbdSbuNZZSu2VSYnOlbEvx3JpIVfSBZjKoGYk8ukaTCnnOaX5Epf4o9HH/50Yq5OxV0vL0KFo+lACW3ciONyltJm2TJHHHWKEWScyx405w0p1qR5EsL9tiNpy0cNGc3ErZGXHITyzhEcajKNSk2h8ckxW0kLu52FoWsvh41HjNHEWiYlgZ4inR9A4m1SxF+YjV9LzAQmNJXYCbRzEcZopiBex942ig6iYiuxN5qYKuOB0muPM7phLDFoaCS4SFVQZYJOpTMOIGEl1WECQirHsGlFFSEVJdVhVWFhqUVJ3dwyrCKkNg0sXFOWWnGAkuEhsLjFxTnd3GQk7uzJ2GoChpypSO7qUbDw3HojMxJI0EGpbkJrfNR5wq0JMpP6dEY40qox2pPKmmSMpm2MOJRcKLkmS3ZrFR9+DKSll4CFAPSaoor0lhRTpJUtfSLcVL2zKFMzopzVFJeksUXpHyP4ZywQftmVuzJuj0mnYdJwnsI+R/DF/jY/v8AwzDR7ThonpNBieggXvHuyP48P2JNSME1KOshgWSNSYPFFL0KbuSHySR7kcS+Hz0UjLBD0mtRwubhCvs1h0M8hRl7PQcUY4WWUGadHAE8faMHB0+uU9DLUWKjMpTTw7AakAxGqig2H+kYoVFGl/TlNIugo2KDgjQWjCAHmIvhG00EuEubkW7zoUw4xtUlwkpQzcOIjqJNFMmWMXCQipGBTlwke5m8QBUl1SGFOWCQ2J0oGqS6pCqsIFicg1BJThVpQSYqmXyZwH6G86dqUFc02qKGUXIN7e/CS5MetBXoHlAilUvawtL4HadOqzKhN16218o+EkOTXZvFKvKTFFoHpLbk9I0FlgIt2Lji+hTcdoFqRvYDTrNLLIEi3Y4wiuhFMLaEFGNZZCIbBKIqaUoyRlzAu3mZSkyHEXZJQoYZr9IOxPHSG5UccmrQFhAswjhpiCamInko1hg29sUZoB2jdWjp09TM2pQYG4N/WRzxTpmj/ClVxZ28k54ukkvmh9MP4uX4Y+EoEax8rp1gMMhIGtj0tGBRfkbekiLpE1bJRpnmBOYjBq3LWGSi/wB74COUqZ56yv6WOmYVXYy2zAkH4RVMOB4SAx5FeU9WyHktwe/CLU8AAxNtOemslxXRS/Yhs5H4EaRnGYdjYKCL/avNRUHIW9IVU5EX9NI6pGiaqmZeEwDAasbzSpYc8zGDT0sNO8qxIvqOGnWF0V4fo6lECFFGKYV6zsuVSFB8eddD5GC+UlSqgRKdwzn6wJuInL9g4/o0RRllpTz2ztnYtTvA7Et9YMxsfOemwlNwP2jBieg4dotw4r9lMlpjbd2oaKlVHiYeE34d56F0nj/lewZ1QcVHiPS/KHIKWGotnmK2KdiSWNzxN4ABzrzMPh8Izmy3M9JszYGZbtcX0Btw8xIlkbM8f47l0K7F8NnZspGul7kc7T3ODxOcAqPDoLsbNfymMmwAgUrqwPEi9/Sb9Fj9ojl5e0Tl4OuONJUwpSUKy5cfVDWbiL84WlTY8ffTWRvXs04kwCpCIksRc5FBza3JBCr68/SKJgKoYszoBmzWAY6+hEammQ8NDm6kNCdFl1zMTzH2Seus42JHQydpdBHFHtimIQjRVJPtEial/qzTev2gWqExKUzoUcKXqxYHtbzM4Vh9ekhQyrl2yf7S9IVZINkMcanKMn83lKTM5av0hRk6ge8A9BTx09Y6afaUNJukTimHPKPgQOEHX8ZI7uT0ki419D+U/iPNYbDNoWZr+3wjyIe8rScH/wCGMq4HEN/CSPhNFNHBxs4g7QqXv2lKmMpILs1ugKvc+QtGKOIpsM3LuCD7Q3KjBhVtLoq84F8Qv2LE/wBpgFHnG6FmAuUv2YRblqDOFBytLpSJlxhjxGsMiERbopQZKeEgcRs6m2rqNPSPo5lxSVvrXk8gKEu0K0ioGVRoOQ4TrYVXykrbKbrbSxj64ZRwhqVA9pDyItJr0ASnpqv6yGgvcTSTD3lzhBM3NFRyNezDGHJJsNBwN9TMLaHyeetUDlbKBbxcdOtuM9s9G3AQTUW6fjJ5K9M2U1JU0eOHyfqKw3aogAtnNyx9Jq4bZxRQua54k9T1m7uG7+8o1Llx9JDzMtSj0ecxGIAJVQ9RlYIQo0DecZGHewtZT72E16eFCiyKAOwt6y25PSU876F/T2ZdHCZeeZuZPGFFMzQFEcxacelyUXPwHfvI5mO4/DKxWKSmAaj2BIAGtyfKQ4ynZjfRRpc2DG17Lfj6RfaHyfr1agPgSne7Mc2dhp4eOnpH8P8AJ9F1dg5Fst+CW4WBM25YpK35M2o37MXAbfp1DkZGVhe9vEBx9ToJr02VhcAkdbGxjVDZeHUAEKxBJvYXJJveMmoo0CxSzLoSiv2zN+b9j6y64U8h8I4a55AD0lWrseYi5S9X0hb5qegHmZU4fuPxhmduZHsINnHX2MOQOOTKGgvO5+Ag2RRwHxl2qqOV/cwL448h7KI+QXFImToJVqLdIJ8e/LT4ROrim5txjU2S8L+D+58vaSZO+P3viZ2Pb9k8LPLJjGX7TH+6PadpbWq8yoHkLzDTaLD7RHqYVdovxLX89RNqOHdGylZS2eod437osB5XmnhdpU0FlUgdrX8+M8uuN6295cYvpb8YVZcZpHsU2xT6P7/6xqjjKbnmPMfmZ4hMUZ1Noi+UEZhxW4zW95DiaxyR7PoKInEMV/cP5Q6Ymmg/aOegzrYk9B4dTPnp2k/AA295PpBz4iDcHw20KiLib9svmj6R77DbZpM1mR6a/fqGmo9s1/SMNtSgAhzWD6LdXU37gjQd585XHtmuU9WufxjP01VtYKNL2OUaDtCWL4Ecse2z6QmKF7Ag6A3DKRb0hfnI7nvafMqW3MQLOHa5FhbLlAPa1jDJtjEXz7xrnSxN+Hbhzmbwy+o0WaHxn02ljI0mM7GfJ32rWJZ87hit/AQpsByA06THq7R2iKzVKdeqgObIGqOVUacVN1PPrM5YWuyZ5IPykz7suKB5fCEWspNuB468bT5nsz5SYzIm8IZsoDnd6ZuZ0tNCp8pK/JLm/wBbK4BHkDIeOa+DWNSVo981UdoviMSiqzswCorOx0sFAuT7CeHbb1Yiy0nDEcbORfmdRFMXjqtUphai2V/2ldgG1w6kEoRY/Way9xm6SJRklbKWBdM9rs7abVaSVWQ0t5dkQm77s/UZhbwsVsSutr2vDGpfnPOU9uUXutNxUYLmyprp6DuJSptSpwSmb24tnsD6LrM05Po3j+P48HpGqLcAlQWvlBYAtbU2HOXB9fIzxO0K9UNSxQz1Hw2fMioVSpSewqDLYnMAAQbjVbc5tJtlSocAlGUOHA8JUi4YHpaKTkvSE8Mro3Avb4yZR0HsT+U8/V2vVuMi2XQ6qxJHTThKna9a2qEn+yGHpYmNbBwSPRhegHsPzlWXv8Z5jD7YrOG/ZOtmIGdbXHW14U4+rb+rJPPSwPxjakCwt9m6yrz/ABEGzKOn8U8/VxuJJFlCgcRlBzQT43EckX1P+sajL9f7NFjfbN81F7eso1YdR6LPONjcSRqqLpwJBI9jaCbFV+ZWUscvqKSj3Z6Bq6+foBFqtUHgJg1MRVPP2i7Valstrjne5v5ylil9L3xr6bbtFqlv5tMlsTUtYaDoFI/CL1KtQ6ktp0DWmixy+kyz4q8Jmqai9/4T+kkxS79W9mklaP6Y88fh5mns4WsWJv1LfrGEwC2tflb7X6yyAwiHzm6Z5GqAYfZyKLXv53/WOpgk/kSiNGqYMd0VGKAfRtO1rvxvo7D85KWx6QbP4yf32v73uY4EMKiGS6NFFfAJwlOxUA62v4mv5A8REPoZjcbw8dLrmI7XLTb3UslEyW0aaJ9GBU2LUbTfHhbRALD3h02M1rb1hcEHwD9ZspQN4cUeGsToFiXw89hvk0gZSz5xbVSrW/8AK81aWxKQ5D+E/m00kpi/GMIgmbkjeGGK6FsNs4ICKblOfhSnqe9wZj1sDiDUH9IqHJmCsSCwBAHTtPWUaV5ZNkKXzlj5XkOf6NZY1S8gsDgKuRCcXiL2voMPa/PihM0EwNT/AHnE/wDY/wDXHKK00AHSGGIpjmJjJstJGfVwbgEnE4gAAkktSFgOJPgmB8naTu2Id6lZajVEcEuMzYZ1z0b3W4+s/h5EtPRbWro6rQ0y1T+14f1C2Lj+9dU8nJ5TC27thMPX+cKpcVMM6MikAl6TBk48Bao+vYdokm/ArSezXhD+JpqgBfEVEBNgXrKoJ6C41MocEf8Aa1/8U/pPmm1toYrEnfVbGkLlKeVQiKTYEA68CLnj6TVwfynxtIhaqLXS37rgDoRx06g+c0f481G0RD8zG5uLXj6e2GAuP62v575pibEpA1cRQFSuKVM3w2WtUQFFZkqKCDqFcW8rdZT/APYUnpVGp3FUIciOLEudFseBFyOcYcChRoMurYVQWPEuhFq3ck6vbmVWZKMkvPZ0vSbTjTS8s2l2SnN8Qf8Am8QPweX+iaf3q/8A1eLP+eJvtUCxBFjYg9R1l02kDzgoyLah+htdnU/+IfPEVz+LyfR9Po3+LVP+aKjaIudZxsb3j1kStRh8JT5Zv8Rz+cC1BP5Zj+cA+L7yhxUpRkXtFBmpiDYeXwgWxMG2ImiiyHOJd18ou6eUjV4J6stWYSlFlHSBdO/xMszwTvLVmEnErl7/ABMk5mkhbM/Bl01EMqCKJVhRVmtHHsWZCDcRyi9hEt9OitHQ1Kh9q1oRKszt5OipCi1M0d+JdcRMo1JZa8NUVyM1RVMsMRbiZmLipSpiB1hqh8jNc4vvLJjTMVX7zrV8vEyXFFLIz0lPaNpdtsHrPOrX7yGsJLSLUpM3H2oTzgmx7dZiCqbk8onjMWykG8lq+jRZNVbZ6KnjWzuDxyoQf7Pi097n1Ew/lXTdmp1AfsMig/e1NgeV7+ZF+kVfHktTcHW5Q+TW/MLGdq4v+jsH18aEdRY3LD0v7yVCnbFPNGWNpHnsTtaqAyOgUMMpBRl0tawuekS+ecPFVNrEXqXseo00jQqsPqsbcrEjT0nRWbz87H8RNXFvs8tZkugVfajvplUEgAtazt3JBAPtHMDtmsllR/CWCqjeJLD6zW5ekXLG+ay365Ev+Ej4txpcC9/spw58pMoPtlw/ISfizX+nrIiBCCoCjx6ZRw5XHlNDZO0nqKzZcoVso8RN9AeneePLTe2DSYIz5iA58AubC1wSR3P4Q1Xo0xZ5yl5ZujFNmMbTFGZSPrZtGPDo3kfyhs0eqOtZGPHFGc+cmIM8oakVIe7NL5xK7+Z29nd7HRLmx/fSpqxLeTm8jolzHTUlWqRLeThqQohyG88kS3kkBWZqPCB4mrS+aUc42KkuKkTDS2eOwGt7Ob+KPVgBVg2NGmak5nMSSteWetaLYoc3ko7XgFrXllqQuwL06zCTHOSARynM4nS4hQWBp4p+Edo1Dzi62GsuHgoj3HM0T2lbKDzlxUla65haVqJztGQzGxt6efKGq186gHgUPubSr0SDFqlMrm7WI8jf9ZnJeCFJiLFlOh/SdGJYcbS9VbwLJMba9MTin7QwuNHMH3g2xNze3ueUAVnVWDnJgscV0GRmYhVW5PAC5JnscKmRET7qgHz5/G883surkcdGFjPQ5prjV+TSKUfKGjYix1EGWK9WXrxZfPqPj5yi1J3eTWi9y5cEXBuDwIgmaDccSuh5j7LefQ9/xlBVB04HmDx8+4kuJW4XNJmg7zhaGpO4XNOF4LNOFoULYIXnGeCzSrNEwTCZpIHNJFQbCgbvObyAvKk94rMhoVJRqhgA0haFgXZyZA0GDLiIA6NIxvBgyAyh2FWEDQIM7mjQrDh5bNF807mlCsYzyB4APO5oxDCvLh4qGlw8pMQYgEyldASL8GBU/lIryO3CN+UKzFq0ypKnkYJlmtjaYYZuczSs5pxplpgcsgWXYTkzKL0zYg9DN/DVboO2k88t5q7PfRh5GaY3TCzRzTueLZpM03sVjBeCex48uB5g9pTPOFogs7vSPraj7369PP8ACWLwZaCKkfV4fd5enSArGc84WgFqA+Y4g8ROloBYUtKloItOFogsJmkgs05FQ9hIicIkEhmYE0klZBEBdYQQSy95SAJeTNKXkvGSXzSXlJ2AF7zt5QGdvGAQGdBgrywMdgFvOhoK87mjskMGli0Bnk3kewqDg3ESr04dGnXFxFLyh+jPIlbQzrBkTBotFTG8E+v92KNCYZvFCLpjZpl5QvBlpzNN7JC55wvAkyuaKwGQ8maLgzuaOwLvr2I4EcRK70jRvQjgf0lS04TAVhs0qWgNRw1HTp5Sy1L/AM8IrEEzSSmacjCxe86JJJiaEM5JJACwkvOyRknLzt52SAEvJeSSAHZLySSgLXnQZJIIDs7eSSMR28qZJIDLLLFpJIxMq6gxZhJJIkNFTLUOM7JIXsoZJnCZJJqySpM4ZJIgOSXkkgBLzl5JIyThMoRz4HqJJIAVFa2h+HCSSSRYUf/Z);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size:100% 100%
+  }
+    </table>
+  </form>
+</div>
+</table>
+</form>
+</body>
+</html>
